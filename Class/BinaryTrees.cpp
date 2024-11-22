@@ -18,20 +18,6 @@ Node* createNode(int value) {
 }
 
 // Insert a value into the tree
-Node* insert(Node* root, int value) {
-    if (root == nullptr) {
-        return createNode(value);
-    }
-    
-    if (value < root->data) {
-        root->left = insert(root->left, value);
-    }
-    else if (value > root->data) {
-        root->right = insert(root->right, value);
-    }
-    
-    return root;
-}
 
 // Print tree in-order
 void printInOrder(Node* root) {
