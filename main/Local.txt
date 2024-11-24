@@ -1,0 +1,6 @@
+scp -r d23cs113@172.16.22.10:/home/d23cs113/DSA "C:\Users\asish\OneDrive - North Eastern Regional Institute of Science and Technology\Documents\C++ Projects\ACL Lab"
+
+
+
+
+scp -r /home/d23cs001/Documents/ d23cs103@172.16.22.10:/home/d23cs103/

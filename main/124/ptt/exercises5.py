@@ -1,0 +1,5 @@
+tuple1=(1,2,3,4,5,6,7,8,9,10)
+reversed_tup=list(tuple1)
+reversed_tup.reverse()
+tuple1=tuple(reversed_tup)
+print(tuple1)

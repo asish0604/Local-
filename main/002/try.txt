@@ -1,0 +1,8 @@
+
+This is an articles search & replace with Vim
+Vim is a powerfull tool    
+we will cover different scenerio
+article 1
+article 2
+article 3
+

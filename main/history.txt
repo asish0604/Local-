@@ -1,0 +1,703 @@
+ls
+rm ex1
+ls
+vi ex1.cpp 
+sudo -;l
+l
+\sls
+ls
+l
+clear
+ls
+cd ../
+ls
+cd DSA
+ls
+cd ./PTT
+ls
+cd ../
+cd ./DSA/
+LS
+ls
+cd ../
+mv ./PTT/hello.cpp ./DSA/
+cd ./DSA
+ls
+cd ../
+cd ./PTT
+ls]
+ls
+clear
+exit
+ls
+ex1.cpp
+ls
+cd "/home/d23cs113/DSA/" && g++ ex1.cpp -o ex1 && "/home/d23cs113/DSA/"ex1
+cd ../
+rm sunrise.txt 
+clear
+ls
+cd "/home/d23cs113/DSA/" && g++ ex1.cpp -o ex1 && "/home/d23cs113/DSA/"ex1
+clear
+cd ../
+ls -a
+ls
+cat .bash_history 
+ls
+ls -a
+cat .bashrc
+ls -a
+cat .bash_logout 
+cat .profile 
+cat .viminfo 
+ls
+ls -a
+> ~/.bash_history
+cat .bash_history 
+cat .viminfo 
+clear
+neovim
+sudo apt install neovim
+exit
+vim login.sh
+chmod +x login.sh 
+./login.sh 
+vim login.sh 
+rm login.sh 
+exit
+ssh-keygen -t rsa -b 4096
+scp d23cs113@172.16.22.10:/home/d23cs113/.ssh/id_rsa ~/.ssh/id_rsa
+chmod 600 ~/.ssh/id_rsa
+ssh d23cs113@172.16.22.10
+ls
+exit
+rm ~/.ssh/id_rsa ~/.ssh/id_rsa.pub
+rm /home/d23cs113/.ssh/id_rsa'
+rm /home/d23cs113/.ssh/id_rsa
+exir
+exit
+ls
+exit
+ls
+vim DSA/hello.cpp 
+ls DSA/
+ls DSA/ PPT?
+ls DSA/ PPT/
+ls DSA/ PTT/
+clear5
+clear
+ls ./DSA ./PTT
+./ex1
+./DSA/ex1
+./DSA/a.out
+rm DSA/a.out 
+ls DSA/
+clear
+vim vim_commands.txt
+vim vim_commands.txt 
+ls
+vim VimCheat 
+ls
+rm VimCheat vim_commands.txt 
+ls
+clear
+exit
+ls
+cleart
+clear
+exit
+cd "/home/d23cs113/DSA/" && g++ ex1.cpp -o ex1 && "/home/d23cs113/DSA/"ex1
+exit
+ls
+ls ./DSA ./PTT
+cat ./PTT/try.txt 
+exit
+ls
+cd ./PTT
+ls
+cst arth.sh 
+cat arth.sh 
+exit
+ls
+vim first.sh
+chmod +x first.sh 
+./first.sh 
+ls
+vim first.sh 
+ls
+mv first.sh ./PTT
+ls
+ls ./PTT
+clear
+cd ./PTT
+cat first.sh 
+vim name.sh
+chmod +x name.sh 
+./name.sh 
+ls -help
+ls -h
+man ls
+ls -l
+cd ../
+ls -l
+vim ls.sh
+chmod +X ls.sh 
+./ls.sh
+chmod +x ls.sh 
+./ls.sh 
+count ./PTT
+ls
+ls -a
+vim count.sh
+chmod -x count.sh 
+./count.sh
+chmod -x count.sh 
+./count.sh
+ls
+vim count.sh 
+cat count.sh 
+vim info.sh
+chmod +x info.sh 
+./info.sh 
+rm count.sh 
+clear
+./info.sh 
+vim arth.sh
+chmod +x arth.sh 
+./arth.sh 
+vim arth.sh 
+./arth.sh 
+cat arth.sh 
+vim arth.sh 
+./arth.sh 
+clear
+ls
+mv arth.sh info.sh ls.sh ./PTT
+ls
+ls ./PTT/
+ls -l
+ls -l ./PTT
+ls
+cd ./PTT/
+ls
+cat first.sh info.sh ls.sh 
+clear
+ls
+xit
+exit
+ls
+clear
+ls
+mkdir pr4
+ls
+rm pr4/
+rmdir pr4/
+ls
+mkdir pr
+cd ./pr
+vim var.sh
+ls
+cd ./r
+cd ./pr
+s
+ls
+cd ../
+ls
+exit
+cat first.sh info.sh ls.sh 
+ls
+cat ./pr/
+cd ./pr
+ls
+cat ./DSA/ex1
+cat ./DSA/ex1.cpp
+exit
+cat ./DSA/ex1.cpp
+exit
+cat ./DSA/ex1.cpp
+exit
+vim sort.cpp
+vim ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp 
+vim sort.cpp 
+cat ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+cat ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+vim ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+vim ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+vim ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+vim ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+./a.out 
+vim ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+./a.out 
+vim ./DSA/ex1.cpp
+c++ ./DSA/ex1.cpp
+./a.out 
+cd ./DSA/
+l
+vim ex1.cpp 
+c++ ex1.cpp
+vim ex1.cpp 
+c++ ex1.cpp
+vim ex1.cpp 
+c++ ex1.cpp
+vim ex1.cpp 
+vim arrays.cpp
+rm arrays.cpp 
+clear
+vim max.cpp
+c++ max.cpp 
+vim max.cpp
+c++ max.cpp 
+vim max.cpp
+c++ max.cpp 
+vim max.cpp
+c++ max.cpp 
+vim max.cpp
+c++ max.cpp 
+chmod +x max.cpp 
+./max.cpp 
+vim max.cpp
+./max.cpp 
+vim max.cpp
+c++ max.cpp 
+./max.cpp 
+./a.out
+vim max.cpp
+
+c++ max.cpp 
+./a.out
+vim max.cpp
+cd ./DSA/
+ls
+cat ex1.cpp 
+cat linklist.cpp 
+exit
+ls
+cd ./DSA
+ls
+vim linked_list
+rm linked_list 
+vim linklist.cpp
+c++ linklist.cpp 
+vim linklist.cpp
+c++ linklist.cpp 
+vim linklist.cpp
+c++ linklist.cpp 
+vim linklist.cpp
+cat linklist.cpp 
+vim linklist.cpp
+vim linked.cpp
+c++ linked.cpp
+./a.out 
+rm linked.cpp 
+vim linked.cpp
+rm linklist.cpp 
+vim linklist.cpp
+rm  linklist.cpp
+vim linklist.cpp
+clear
+ls
+cd ./DSA/
+ls
+exit
+cd ./DSA/
+cat linklist.cpp 
+cat ./PTT/factorial.sh 
+clear 
+exit
+ls
+cd ./PTT/
+vim factorial.sh
+chmod +x factorial.sh 
+./factorial.sh 
+vim fibonacci.sh
+chmod +x
+chmod +x fibonacci.sh 
+./fibonacci.sh 
+vim temp.sh
+cat fibonacci.sh 
+l
+ls
+l
+ls
+vim temp.sh
+chmod +x temp.sh 
+./temp.sh 
+vim multiply.sh
+chmod +x multiply.sh 
+./multiply.sh 
+./multiply.sh 3 4
+cat factorial.sh 
+vim numsys.sh
+ls
+exit
+cd ./PTT/
+ls
+cat factorial.sh 
+vim numsys.sh 
+chmod +x numsys.sh 
+./numsys.sh 
+ls
+vim numsys.sh 
+./numsys.sh 
+chmod +x numsys.sh 
+./numsys.sh 
+vim numsys.sh 
+./numsys.sh 
+vim numsys.sh 
+./numsys.sh binary 5
+./numsys.sh binary 1
+./numsys.sh binary 001
+vim numsys.sh 
+hex 000
+./numsys.sh 
+./numsys.sh 44
+./numsys.sh binary 23
+./numsys.sh binary 0
+./numsys.sh idjfoi 0
+./numsys.sh convert binary 0
+choco install bc
+chmod +x div.sh 
+./div.sh divisible 5 6
+divisible "$1" "$2"
+ls
+./div.sh 5 6
+cd ./PTT/
+vim quotient.sh 
+chmod +x quotient.sh 
+./quotient.sh 3 4
+vim mod.sh
+chmod +x mod.sh 
+./mod.sh 2 3
+exit
+ls
+cd PTT/
+ls
+vim multiply.sh 
+vim div.sh 
+ls
+ls -a
+vim quotient.sh 
+cat arth.sh 
+ls
+cat numsys.sh 
+q
+clear
+exit
+ls
+ls -a
+cat .bash_history 
+exit
+ls
+cd PTT
+ls
+vim arth.sh 
+vim numsys.sh 
+exit
+cd ./PTT/
+ls
+cat fibonacci.sh 
+cat multiply.sh
+cat numsys.sh
+cat div.sh
+ls
+cat quotient.sh
+cat  mod.sh
+passwd
+cd ./PTT/
+ls
+cat fibonacci.sh 
+cat temp.sh 
+lsd
+cat temp.sh
+cat quotient.sh
+cd ./PTT
+ls
+vim numsys.sh 
+
+vim numsys.sh 
+./numsys.sh binary 5
+vim div.sh 
+./div.sh 10 5
+vim div.sh 
+./div.sh 10 5
+./div.sh 10 3
+vim quotient.sh
+vim div.sh 
+vim quotient.sh
+cat div.sh 
+cat numsys.sh 
+vim quotient.sh
+l
+cat -A
+cd ./PTT/
+ls
+cat 
+cat fibonacci.sh 
+cat factorial.sh
+cat temperature.sh
+cat temp.sh
+cat mult.sh
+cat multiply.sh
+cat convert.sh
+cat decimal.sh
+cat numsys.sh
+cat divisible.sh
+cat div.sh
+cat quotient.sh
+cat mod.sh
+ls
+cd PTT/
+ls
+cat mod.sh 
+vim mod.sh 
+ls
+vim t
+vim temp.sh 
+logout
+cd PTT/
+ls
+vim temp.sh 
+ls
+vim quotient.sh 
+vim factorial.sh 
+logout
+cd ./DSA/
+ls
+vim linked.cpp 
+vim linklist.cpp 
+exit
+ls
+clear
+ls
+cd ./DSA/
+ls
+./a.out 
+cat a.out 
+clear
+ls
+cd ./DSA
+ls
+cd ./DSA/
+ls
+./a.out 
+$!
+$?
+echo $?
+c++ max.cpp 
+./a.out 
+echo $?
+cd ./DSA/
+ls
+llsls
+llslselse
+ls
+ls -s
+cd ./DSA/
+ls -s
+ls -l
+cd ../
+ls
+cat Local.txt 
+cd ./DSA/
+ls
+clear
+cd ./DSA/
+ls
+pwd
+ls
+cd ./DS
+cd ./DSA
+ls
+vi max.cpp 
+ls --help
+clear
+ls
+cd ../
+cd ./PTT
+ls
+clear
+vim print_numbers.c
+vim run_print_numbers.sh
+chmod +x run_print_numbers.sh 
+ls
+vim copy.sh
+vim month.sh
+vim sum.sh
+vim least.sh
+vim sum_even.sh
+vim product_odd.sh
+vim fact.sh
+vim barchart.sh
+chmod +x copy.sh month.sh sum.sh least.sh sum_even.sh product_odd.sh fact.sh barchart.sh 
+ls
+pwd
+cd ./
+ls
+cd ../
+ls
+cd ./PTT/
+ls
+ls -a
+clear
+ls
+exit
+ls
+cd ./DSA
+ls
+vim PriorityQueue.cpp 
+c++ PriorityQueue.cpp 
+clear
+vim PriorityQueue.cpp 
+vim 
+man stdio.h
+man printf
+info printf
+ls
+vim stack.h
+vim stack.cpp
+vim dlist.cpp 
+exit
+ls
+cd ./PTT
+ls
+clear
+ls
+ls 0a
+ls -a
+ls -l
+ls -h
+clear
+ls
+clear
+ls -l
+man ls
+exit
+ls
+clear
+ls
+cd ./DSA/
+ls
+vim PriorityQueue.cpp 
+ls
+vim q.cpp
+ls
+cat Local.txt 
+exit
+who
+exit
+who
+man who
+who
+man ww
+man who
+clear
+cd ./PTT/
+ls
+cat div.sh 
+ls
+cat Local.txt 
+clear
+ls
+cd PTT/
+ccd ../
+cd ../
+cat Local.txt 
+cd PTT/
+pwx
+pwd
+cd ../
+ls
+ls
+cat Local.txt 
+clear
+ls
+vim Local.txt 
+clear
+mv /Documents/*.py /PTT/
+mv "/Documents/*.py" /PTT/
+mv /Documents/"*.py" /PTT/
+CLEAR
+clear
+cd ./ Documents/
+cd / Documents
+cd /Documents
+clear
+ls
+cd ./Documents/
+ls
+ls *.py
+clear
+ls
+cd ./Documents/
+git 
+pip install numpy
+clear
+ls
+vi n.py
+vim insertTuple.py 
+clea
+clear
+ls
+cat Local.txt 
+cd ./DSA/
+ls
+vim tree.cpp
+c++ tree.cpp 
+clear
+ls
+vim tree.cpp 
+ls
+cd ./Documents/
+ls
+clear
+ls
+cd ../
+ls
+pwd
+ls
+scp d23cs113@172.16.22.10:/home/d23cs113/'DSA Practical CSE 3rd Sem.pdf' d23cs103@172.16.22.10:/home/d23cs103/
+scp /home/d23cs113/'DSA Practical CSE 3rd Sem.pdf' d23cs103@172.16.22.10:/home/d23cs103/
+chrome
+ls
+clear
+ls
+cd ./Documents/
+ls
+vim popTuple.py 
+clear
+cd ../
+man rm
+ls
+cd ./Documents/
+ls
+cd ../
+scp /home/d23cs113/Documents  d23cs104@172.16.22.10:/home/d23cs104/
+scp /home/d23cs113/Documents/  d23cs104@172.16.22.10:/home/d23cs104/
+ls
+scp /home/d23cs113/Documents/ d23cs104@172.16.22.10:/home/d23cs104/Documents/
+scp /home/d23cs113/Documents/ d23cs104@172.16.22.10:/home/d23cs104/
+cat Local.txt 
+scp -r /home/d23cs113/Documents/ d23cs104@172.16.22.10:/home/d23cs104/
+clear
+ls
+cd pr/
+ls
+cd ../
+rmdir pr
+ls
+cd DSA/
+ls
+cd ../
+clear
+cd ./Documents/
+ls
+vim popTuple.py 
+exit

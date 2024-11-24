@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Enter the Temperature in Calcius:"
+read C
+
+#F=$(($C*9/5+32))
+
+F=$(echo "scale=2; $C*9/5+32" |bc)
+echo "Temperature in Fahrenheit $F"
+

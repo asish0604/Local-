@@ -1,0 +1,82 @@
+Global
+•	:help keyword - open help for keyword
+•	:saveas file - save file as
+Cursor movement 
+•	h - move cursor left (left arrow works also)
+•	j - move cursor down (down arrow works also)
+•	k - move cursor up (up arrow works also)
+•	l - move cursor right (right arrow works also)
+•	H - move to top of screen
+•	M - move to middle of screen
+•	L - move to bottom of screen
+•	w - jump forwards to the start of a word
+•	e - jump forwards to the end of a word
+•	b - jump backwards to the start of a word
+•	0 - jump to the start of the line
+•	$ - jump to the end of the line
+•	gg - go to the first line of the document
+•	G - go to the last line of the document
+•	5G - go to line 5
+•	Ctrl + b - move back one full screen
+•	Ctrl + f - move forward one full screen
+•	Ctrl + d - move forward 1/2 a screen
+•	Ctrl + u - move back 1/2 a screen
+Tip Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines. 
+Insert mode - inserting/appending text
+•	i - insert before the cursor
+•	I - insert at the beginning of the line
+•	a - insert (append) after the cursor
+•	A - insert (append) at the end of the line
+•	o - append (open) a new line below the current line
+•	O - append (open) a new line above the current line
+•	ea - insert (append) at the end of the word
+•	Esc - exit insert mode
+Editing
+•	r - replace a single character
+•	J - join line below to the current one with one space in between
+•	gJ - join line below to the current one without space in between
+•	cc - change (replace) entire line
+•	cw - change (replace) to the end of the word
+•	c$ - change (replace) to the end of the line
+•	s - delete character and substitute text
+•	S - delete line and substitute text (same as cc)
+•	xp - transpose two letters (delete and paste)
+•	u - undo
+•	Ctrl + r - redo
+•	. - repeat last command
+Registers
+•	:reg - show registers content
+•	"xy - yank into register x
+•	"xp - paste contents of register x
+Tip Registers are being stored in ~/.viminfo, and will be loaded again on next restart of vim. 
+Tip Register 0 contains always the value of the last yank command. 
+Cut and paste
+•	yy - yank (copy) a line
+•	2yy - yank (copy) 2 lines
+•	yw - yank (copy) the characters of the word from the cursor position to the start of the next word
+•	y$ - yank (copy) to end of line
+•	p - put (paste) the clipboard after cursor
+•	P - put (paste) before cursor
+•	dd - delete (cut) a line
+•	2dd - delete (cut) 2 lines
+•	dw - delete (cut) the characters of the word from the cursor position to the start of the next word
+•	D - delete (cut) to the end of the line
+•	d$ - delete (cut) to the end of the line
+•	x - delete (cut) character
+Exiting
+•	:w - write (save) the file, but don't exit
+•	:wq or :x or ZZ - write (save) and quit
+•	:q - quit (fails if there are unsaved changes)
+•	:q! or ZQ - quit and throw away unsaved changes
+Search and replace
+•	/pattern - search for pattern
+•	?pattern - search backward for pattern
+•	n - repeat search in same direction
+•	N - repeat search in opposite direction
+•	:%s/old/new/g - replace all old with new throughout file
+•	:%s/old/new/gc - replace all old with new throughout file with confirmations
+•	:noh - remove highlighting of search matches
+Working with multiple files
+•	:e file - edit a file in a new buffer
+•	:e #n – edit file no. n. If you open more than 1 file, you can switch back and forth between the files this way. This is useful when you want to copy some lines from one file to another file. 
+
