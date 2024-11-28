@@ -1,53 +1,48 @@
-#include<iostream>
-#include<string>
-
+#include <iostream>
 using namespace std;
 
-class Solution {
-public:
-    int romanToInt(string s) {
-        int arr[s.length()];
-        int sum=0;
-        for (int i=0;i=<s.length();i++)
-        {
-            if(s[i]=="I"){
-                arr[i]=1;
-            }
-            else if(s[i]=="V"){
-                arr[i]=5;
-            }
-            else if(s[i]=="X"){
-                arr[i]=10;
-            }
-            else if(s[i]=="L"){
-                arr[i]=50;
-            }
-            else if(s[i]=="C"){
-                arr[i]=100;
-            }
-            else if(s[i]=="D"){
-                arr[i]=500;
-            }
-            else if(s[i]=="M"){
-                arr[i]=1000;
-            }
-            else{
-                cout<<"Invalid Input";
-            }
-        }
-       for(int j=0;j<=s.length();j++)
-       {
-           sum= sum + arr[j];
-       }
-       return(sum);
-    }
-};
-
 int main() {
-    cout<<"Enter The Roman Numeral: ";
-    string s;
-    cin>>s;
-    Solution obj;
-    cout<<"The Integer Value of the Roman Numeral is: "<<obj.romanToInt(s);
+    int a;
+    cout << "Enter an integer value for a: ";
+    cin >> a;
+
+    // Pointer to an integer
+    int *b = &a;
+
+    // Printing the address of a using the pointer b
+    cout << "Address of a using pointer b: " << b << "\n";
+
+    // Printing the address of a directly
+    cout << "Address of a directly: " << &a << endl;
+
+    // Printing the address of the pointer b
+    cout << "Address of pointer b: " << &b << endl;
+
+    // Printing the value stored at the address pointed by b
+    cout << "Value at the address pointed by b: " << *b << "\n";
+
+    // Pointer to a pointer
+    int **c = &b;
+
+    // Printing the address of b using pointer to pointer c
+    cout << "Address of b using pointer to pointer c: " << c << "\n";
+
+    // Printing the address of b directly
+    cout << "Address of b directly: " << &b << endl;
+
+    // Printing the value stored at the address pointed by c (which is the address of a)
+    cout << "Value at the address pointed by c (address of a): " << *c << "\n";
+
+    // Printing the value stored at the address pointed by the value stored at c (which is the value of a)
+    cout << "Value at the address pointed by the value stored at c (value of a): " << **c << "\n";
+
+    // Changing the value of a using pointer b
+    *b = 20;
+    cout << "New value of a after changing it using pointer b: " << a << "\n";
+
+    // Changing the value of a using pointer to pointer c
+    **c = 30;
+    cout << "New value of a after changing it using pointer to pointer c: " << a << "\n";
+
     return 0;
 }
