@@ -1,0 +1,5 @@
+#!/bin/bash
+read x
+read y
+sum = x + y
+eco $sum

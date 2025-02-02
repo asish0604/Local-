@@ -1,0 +1,19 @@
+import numpy as np
+def procees_numbers(list):
+    countp=0
+    countn=0
+    for i in list:
+        if(i>=0):
+            countp+=1
+            print("Positive number ",i)
+        else:
+            countn+=1
+            print("Negative Number: ",i)
+    return(countp,countn)
+
+
+
+list=np.arange(-5,5)
+print(procees_numbers(list))
+vec=np.arange(10,50)
+print(vec)
